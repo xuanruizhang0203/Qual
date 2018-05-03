@@ -52,7 +52,7 @@ model_trainer = ImplicitModelTrainer(batch_size=batch_size, test_batch_size=test
 auc_evaluator = AUC()
 recall_evaluator = Recall(recall_at=[10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
 
-#6:24
+#6:24~ +1 11:40
 
 
 
