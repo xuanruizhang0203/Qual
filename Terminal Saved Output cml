@@ -1,0 +1,329 @@
+Last login: Wed May  2 23:55:55 on ttys004
+Mollys-MacBook-Pro:~ molly$ cd projecy3
+-bash: cd: projecy3: No such file or directory
+Mollys-MacBook-Pro:~ molly$ ls
+AnacondaProjects	Untitled.ipynb		r1.train
+Applications		Untitled1.ipynb		r2.test
+Birthday-Problem	anaconda		r2.train
+Desktop			btc.csv			r3.test
+Dockerfile		dataset			r3.train
+Documents		f9014fefee22		r4.test
+Downloads		gurobi.lic		r4.train
+HW0.ipynb		gurobi.log		r5.test
+Library			nltk_data		r5.train
+MacKeeper Backups	node_modules		requirements.txt
+Movies			nosetests		scikit-neuralnetwork
+Music			online_HW1.lp		scikit_learn_data
+Pictures		package-lock.json	sematch
+Public			plot.png		squarify
+PycharmProjects		python-mnist		train_shuf.txt
+Qual			r1.test
+Mollys-MacBook-Pro:~ molly$ cd Desktop/
+Mollys-MacBook-Pro:Desktop molly$ ls
+ hw2  .xlsx
+03:25:2018 中文 .pdf
+67kb.jpg
+BOOK
+BPR(SGD).ipynb
+Bayesian
+CROPPED-IMG_3241.jpg
+Code.docx
+Copy of hw2  1.xlsx
+DanqiMao2018_ORIE.pdf
+DataScience
+EMSR_note-14yieuh.pdf
+Exercise Files
+Fall_2017
+HW4.pdf
+Interview
+LOVE Music
+Learning & Decision Making
+Logo.png
+Molly
+NYHCSurveydata.xlsx
+Project3.pdf
+RStudio.app
+Resume
+S-Work
+Screen Shot 2017-11-20 at 2.00.05 AM.jpg
+Screen Shot 2018-02-18 at 11.18.58 PM.png
+Screen Shot 2018-02-22 at 7.48.11 PM.png
+Screen Shot 2018-03-23 at 11.51.35 AM.png
+Service Sys & Online Market
+Solstice Client.app
+Spreadsheet
+Spreedsheet_Lecture04:09.xls
+Startup_Studio
+UMN
+UMN_Official Transcript.pdf
+Workbook1.xls
+ZA
+database
+dm786@cornell.edu.ics
+java.java
+new_p2.pdf
+project2_heartdisease 1.pdf
+try.cpp
+with_item_features3.ipynb
+~$ final project Nov29th.docx
+~$1 network.docx
+~$786hw1.docx
+~$L final paper.docx
+~$MLhw3.docx
+~$NBA 6470-01.xlsx
+~$P2.docx
+~$Presentation.pptx
+~$deling hw5.docx
+~$hw1.xlsx
+~$tascience hw1.docx
+~$terview.docx
+~$tworkhw4.docx
+~$yesianhw1.docx
+Mollys-MacBook-Pro:Desktop molly$ cd Da
+DanqiMao2018_ORIE.pdf  DataScience/           
+Mollys-MacBook-Pro:Desktop molly$ ls
+ hw2  .xlsx
+03:25:2018 中文 .pdf
+67kb.jpg
+BOOK
+BPR(SGD).ipynb
+Bayesian
+CROPPED-IMG_3241.jpg
+Code.docx
+Copy of hw2  1.xlsx
+DanqiMao2018_ORIE.pdf
+DataScience
+EMSR_note-14yieuh.pdf
+Exercise Files
+Fall_2017
+HW4.pdf
+Interview
+LOVE Music
+Learning & Decision Making
+Logo.png
+Molly
+NYHCSurveydata.xlsx
+Project3.pdf
+RStudio.app
+Resume
+S-Work
+Screen Shot 2017-11-20 at 2.00.05 AM.jpg
+Screen Shot 2018-02-18 at 11.18.58 PM.png
+Screen Shot 2018-02-22 at 7.48.11 PM.png
+Screen Shot 2018-03-23 at 11.51.35 AM.png
+Service Sys & Online Market
+Solstice Client.app
+Spreadsheet
+Spreedsheet_Lecture04:09.xls
+Startup_Studio
+UMN
+UMN_Official Transcript.pdf
+Workbook1.xls
+ZA
+database
+dm786@cornell.edu.ics
+java.java
+new_p2.pdf
+project2_heartdisease 1.pdf
+try.cpp
+with_item_features3.ipynb
+~$ final project Nov29th.docx
+~$1 network.docx
+~$786hw1.docx
+~$L final paper.docx
+~$MLhw3.docx
+~$NBA 6470-01.xlsx
+~$P2.docx
+~$Presentation.pptx
+~$deling hw5.docx
+~$hw1.xlsx
+~$tascience hw1.docx
+~$terview.docx
+~$tworkhw4.docx
+~$yesianhw1.docx
+Mollys-MacBook-Pro:Desktop molly$ cd DataScience/
+Mollys-MacBook-Pro:DataScience molly$ ls
+assign1		assign3		assign5		assignment0	project
+assign2		assign4		assign6		lecture
+Mollys-MacBook-Pro:DataScience molly$ cd project/
+Mollys-MacBook-Pro:project molly$ ls
+P2.docx		cml.ipynb	p2.pdf
+bpr_sgd.ipynb	p2 copy.pdf	project3
+Mollys-MacBook-Pro:project molly$ cd project3/
+Mollys-MacBook-Pro:project3 molly$ ls
+CML.py			Visual_BPR.py		bpr_sgd.ipynb
+Terminal Saved Output	Visual_BPR_Terminal.pdf	tradesy
+Mollys-MacBook-Pro:project3 molly$ python CML.py 
+Traceback (most recent call last):
+  File "CML.py", line 45, in <module>
+    cml_model = CML(batch_size=batch_size, max_user=train_dataset.max_user(), max_item=train_dataset.max_item(), 
+NameError: name 'CML' is not defined
+Mollys-MacBook-Pro:project3 molly$ python CML.py 
+WARNING:tensorflow:From /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/openrec/modules/interactions/pairwise_eu_dist.py:93: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-05-02 23:59:20.323194: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+== Start training with FULL evaluation ==
+[Itr 1000] Finished
+[Itr 2000] Finished
+[Itr 3000] Finished
+[Itr 4000] Finished
+[Itr 5000] Finished
+[Itr 6000] Finished
+[Itr 7000] Finished
+[Itr 8000] Finished
+[Itr 9000] Finished
+[Itr 10000] Finished
+[Itr 10000] loss: 268.161455
+..(dataset: Val) evaluation
+100%|█████████████████████████████████████████| 193/193 [41:51<00:00, 13.01s/it]
+..(dataset: Val) AUC 0.670871724753
+..(dataset: Test) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████| 193/193 [39:55<00:00, 12.41s/it]
+..(dataset: Test) AUC 0.66594640661
+[Itr 11000] Finished
+[Itr 12000] Finished
+[Itr 13000] Finished
+[Itr 14000] Finished
+[Itr 15000] Finished
+[Itr 16000] Finished
+[Itr 17000] Finished
+[Itr 18000] Finished
+[Itr 19000] Finished
+[Itr 20000] Finished
+[Itr 20000] loss: 41.013389
+..(dataset: Val) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [39:56<00:00, 12.42s/it]
+..(dataset: Val) AUC 0.668600370653
+..(dataset: Test) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [39:47<00:00, 12.37s/it]
+..(dataset: Test) AUC 0.662307644855
+[Itr 21000] Finished
+[Itr 22000] Finished
+[Itr 23000] Finished
+[Itr 24000] Finished
+[Itr 25000] Finished
+[Itr 26000] Finished
+[Itr 27000] Finished
+[Itr 28000] Finished
+[Itr 29000] Finished
+[Itr 30000] Finished
+[Itr 30000] loss: 32.804400
+..(dataset: Val) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [38:50<00:00, 12.08s/it]
+..(dataset: Val) AUC 0.670751483022
+..(dataset: Test) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [38:57<00:00, 12.11s/it]
+..(dataset: Test) AUC 0.666097574585
+[Itr 31000] Finished
+[Itr 32000] Finished
+[Itr 33000] Finished
+[Itr 34000] Finished
+[Itr 35000] Finished
+[Itr 36000] Finished
+[Itr 37000] Finished
+[Itr 38000] Finished
+[Itr 39000] Finished
+[Itr 40000] Finished
+[Itr 40000] loss: 29.773819
+..(dataset: Val) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [38:25<00:00, 11.94s/it]
+..(dataset: Val) AUC 0.67532097045
+..(dataset: Test) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [37:36<00:00, 11.69s/it]
+..(dataset: Test) AUC 0.670488237673
+[Itr 41000] Finished
+[Itr 42000] Finished
+[Itr 43000] Finished
+[Itr 44000] Finished
+[Itr 45000] Finished
+[Itr 46000] Finished
+[Itr 47000] Finished
+[Itr 48000] Finished
+[Itr 49000] Finished
+[Itr 50000] Finished
+[Itr 50000] loss: 27.820703
+..(dataset: Val) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [37:31<00:00, 11.67s/it]
+..(dataset: Val) AUC 0.679909925601
+..(dataset: Test) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [37:28<00:00, 11.65s/it]
+..(dataset: Test) AUC 0.674132857438
+[Itr 51000] Finished
+[Itr 52000] Finished
+[Itr 53000] Finished
+[Itr 54000] Finished
+[Itr 55000] Finished
+[Itr 56000] Finished
+[Itr 57000] Finished
+[Itr 58000] Finished
+[Itr 59000] Finished
+[Itr 60000] Finished
+[Itr 60000] loss: 26.391467
+..(dataset: Val) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [36:40<00:00, 11.40s/it]
+..(dataset: Val) AUC 0.682836406356
+..(dataset: Test) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [37:01<00:00, 11.51s/it]
+..(dataset: Test) AUC 0.678780059777
+[Itr 61000] Finished
+[Itr 62000] Finished
+[Itr 63000] Finished
+[Itr 64000] Finished
+[Itr 65000] Finished
+[Itr 66000] Finished
+[Itr 67000] Finished
+[Itr 68000] Finished
+[Itr 69000] Finished
+[Itr 70000] Finished
+[Itr 70000] loss: 25.339624
+..(dataset: Val) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [36:42<00:00, 11.41s/it]
+..(dataset: Val) AUC 0.685944554684
+..(dataset: Test) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [37:36<00:00, 11.69s/it]
+..(dataset: Test) AUC 0.681642237044
+[Itr 71000] Finished
+[Itr 72000] Finished
+[Itr 73000] Finished
+[Itr 74000] Finished
+[Itr 75000] Finished
+[Itr 76000] Finished
+[Itr 77000] Finished
+[Itr 78000] Finished
+[Itr 79000] Finished
+[Itr 80000] Finished
+[Itr 80000] loss: 24.456723
+..(dataset: Val) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [38:51<00:00, 12.08s/it]
+..(dataset: Val) AUC 0.688283436
+..(dataset: Test) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [39:44<00:00, 12.35s/it]
+..(dataset: Test) AUC 0.683905243449
+[Itr 81000] Finished
+[Itr 82000] Finished
+[Itr 83000] Finished
+[Itr 84000] Finished
+[Itr 85000] Finished
+[Itr 86000] Finished
+[Itr 87000] Finished
+[Itr 88000] Finished
+[Itr 89000] Finished
+[Itr 90000] Finished
+[Itr 90000] loss: 23.762983
+..(dataset: Val) evaluation
+ 44%|███████████████████████████████████████████████████████████████████████████████▏                                                                                                      | 84/193 [17:09<22:15, 12.26s/it]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [37:50<00:00, 11.77s/it]
+..(dataset: Val) AUC 0.690095396483
+..(dataset: Test) evaluation
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193/193 [38:00<00:00, 11.82s/it]
+..(dataset: Test) AUC 0.68639582369
+[Itr 91000] Finished
+[Itr 92000] Finished
+[Itr 93000] Finished
+[Itr 94000] Finished
+[Itr 95000] Finished
+[Itr 96000] Finished
+[Itr 97000] Finished
+[Itr 98000] Finished
+[Itr 99000] Finished
+Mollys-MacBook-Pro:project3 molly$ 
